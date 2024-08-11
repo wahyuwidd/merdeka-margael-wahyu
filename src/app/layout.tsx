@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Kanit } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Navbar from "./components/Navbar";
+import Transition from './components/Transition';
+const inter = Kanit({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"></meta>
+      </head>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
+
+

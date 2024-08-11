@@ -2,28 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+html, body {
+  touch-action: pan-x pan-y;
+  overflow-x: hidden; 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.background {
+  background-image: url('/city.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.img-back {
+	background: image-set('/brush.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+  color: #fff;
+}
+
+.text {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  display: inline; 
+  color: #d9002b;
+  border-right: 2px solid red;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @layer utilities {
@@ -31,3 +56,57 @@ body {
     text-wrap: balance;
   }
 }
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+/* -------------------------------- 
+
+xclip 
+
+-------------------------------- */
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+}
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #3d3d3d;
+}
+.cd-headline.clip b {
+  opacity: 0;
+}
+.cd-headline.clip b.is-visible {
+  opacity: 1;
+}
+
+
