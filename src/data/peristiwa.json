@@ -1,0 +1,38 @@
+[
+    {
+      "date": "1873",
+      "title": "PERANG ACEH",
+      "description": "Serangkaian konflik panjang di Aceh melawan penjajahan Belanda, dipimpin oleh pahlawan seperti Teuku Umar dan Cut Nyak Dien.",
+      "imgSrc": "/assets/images/sejarah/peristiwa/aceh.jpeg",
+      "alt": "Perang Aceh"
+    },
+    {
+      "date": "1906",
+      "title": "PUPUTAN BALI",
+      "description": "Pertempuran sengit di Bali ketika rakyat Bali, dipimpin oleh Raja-raja setempat, melawan pasukan Belanda dalam peristiwa yang dikenal sebagai Puputan.",
+      "imgSrc": "/assets/images/sejarah/peristiwa/bali.jpg",
+      "alt": "Puputan Bali"
+    },
+    {
+      "date": "17-08-1945",
+      "title": "PROKLAMASI KEMERDEKAAN",
+      "description": "Soekarno dan Mohammad Hatta memproklamasikan kemerdekaan Indonesia dari penjajahan Belanda, menandai lahirnya Republik Indonesia.",
+      "imgSrc": "/assets/images/sejarah/peristiwa/proklamasi.jpg",
+      "alt": "Proklamasi Kemerdekaan"
+    },
+    {
+      "date": "10-11-1945",
+      "title": "PERTEMPURAN SURABAYA",
+      "description": "Salah satu pertempuran terbesar antara rakyat Indonesia dengan pasukan Sekutu, di mana Bung Tomo memimpin perjuangan mempertahankan kemerdekaan di Surabaya.",
+      "imgSrc": "/assets/images/sejarah/peristiwa/surabaya.jpg",
+      "alt": "Pertempuran Surabaya"
+    },
+    {
+      "date": "1949",
+      "title": "KONFERENSI MEJA BUNDAR",
+      "description": "Konferensi penting antara Indonesia dan Belanda yang menghasilkan pengakuan kedaulatan Indonesia oleh Belanda, dan penyerahan kedaulatan kepada Republik Indonesia.",
+      "imgSrc": "/assets/images/sejarah/peristiwa/konferensi.jpg",
+      "alt": "Konferensi Meja Bundar"
+    }
+  ]
+  

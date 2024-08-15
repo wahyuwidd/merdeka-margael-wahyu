@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ir. Soekarno",
+    "title": "Presiden RI ke-1",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Soekarno.jpg/100px-Soekarno.jpg"
+  },
+  {
+    "name": "Soeharto",
+    "title": "Presiden RI ke-2",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/President_Suharto%2C_1993.jpg/100px-President_Suharto%2C_1993.jpg"
+  },
+  {
+    "name": "B.J. Habibie",
+    "title": "Presiden RI ke-3",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bacharuddin_Jusuf_Habibie_official_portrait.jpg/100px-Bacharuddin_Jusuf_Habibie_official_portrait.jpg"
+  },
+  {
+    "name": "Abdurrahman Wahid",
+    "title": "Presiden RI ke-4",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/President_Abdurrahman_Wahid_-_Indonesia.jpg/100px-President_Abdurrahman_Wahid_-_Indonesia.jpg"
+  },
+  {
+    "name": "Megawati Soekarnoputri",
+    "title": "Presiden RI ke-5",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Vice_President_Megawati_Sukarnoputri_-_Indonesia.jpg/100px-Vice_President_Megawati_Sukarnoputri_-_Indonesia.jpg"
+  },
+  {
+    "name": "Susilo Bambang Yudhoyono",
+    "title": "Presiden RI ke-6",
+    "img": "https://upload.wikimedia.org/wikipedia/map-bms/thumb/1/1a/Susilo_Bambang_Yudhoyono_official_presidential_portrait_2009.jpg/187px-Susilo_Bambang_Yudhoyono_official_portrait_2009.jpg"
+  },
+  {
+    "name": "Joko Widodo",
+    "title": "Presiden RI ke-7",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Joko_Widodo_2019_official_portrait.jpg/499px-Joko_Widodo_2019_official_portrait.jpg"
+  }
+]

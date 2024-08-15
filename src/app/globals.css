@@ -2,28 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 html, body {
   touch-action: pan-x pan-y;
   overflow-x: hidden; 
-}
-
-.background {
-  background-image: url('/city.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  scroll-behavior: smooth;
+  overflow: visible !important;
+  padding-right: 0 !important;
 }
 
 .img-back {
-	background: image-set('/brush.png');
+	background: image-set('/assets/images/additional/brush.png');
 	background-size: contain;
 	background-repeat: no-repeat;
   color: #fff;
 }
+
 
 .text {
   font-size: 1.875rem;
@@ -78,11 +71,6 @@ html, body {
 .no-js .cd-words-wrapper b.is-visible {
   opacity: 1;
 }
-/* -------------------------------- 
-
-xclip 
-
--------------------------------- */
 
 .cd-headline.clip span {
   display: inline-block;
@@ -93,7 +81,6 @@ xclip
   vertical-align: top;
 }
 .cd-headline.clip .cd-words-wrapper::after {
-  /* line */
   content: '';
   position: absolute;
   top: 0;
@@ -109,4 +96,9 @@ xclip
   opacity: 1;
 }
 
+
+.navbar-backdrop {
+  touch-action: none; 
+  overflow: hidden; 
+}
 
