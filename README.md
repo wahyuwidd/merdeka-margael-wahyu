@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Merdeka - Landing Page Hari Kemerdekaan RI
 
-First, run the development server:
+Website ini dibuat untuk merayakan Hari Kemerdekaan Indonesia yang ke-79.
+
+
+## Screenshots
+
+Mobile View
+
+![App Screenshot](https://i.postimg.cc/XYJXvdSq/1.png) 
+
+
+Desktop View
+
+![Desktop Screenshot](https://i.postimg.cc/8Cf5RGCV/2.png)
+
+
+## Demo
+
+https://merdeka-margael-wahyu.vercel.app
+## Features
+
+- Responsive Mobile dan Desktop
+- Data semua Pahlawan Nasional Indonesia
+- Data Kepemimpinan RI
+- Sejarah Kemerdekaan RI
+- Galeri Peristiwa masa Penjajahan hingga Peristiwa masa kini
+
+
+## Install and Usage
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/wwxxc/merdeka-margael-wahyu.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd merdeka-margael-wahyu
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Authors
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [@wwxxc](https://www.github.com/wwxxc)
+## Support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For support, [trakteer me](https://trakteer.id/woilah3/link)
