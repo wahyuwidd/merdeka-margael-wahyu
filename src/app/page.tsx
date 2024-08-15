@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function Home() {
   return (
-    <main className="w-full 2xl:mt-[22rem] xl:mt-[13rem] md:mt-[18rem] mt-[10rem]">
+    <main className="w-full 2xl:mt-[22rem] xl:mt-[14rem] md:mt-[18rem] mt-[10rem]">
       <section className="container mx-auto flex flex-col items-center justify-center text-center">
         <Section1 />
       </section>
