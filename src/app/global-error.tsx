@@ -11,7 +11,7 @@ export default function GlobalError({
   return (
     <html>
       <body>
-        <div className='w-full h-screen flex flex-col items-center justify-center'>
+        <div className='w-full h-screen flex flex-col items-center text-center justify-center'>
             <h2 className='text-primary text-4xl'>500</h2>
             <h1 className='text-6xl font-bold'>Internal Server Error</h1>
             <span>Sorry, something went wrong on our end.</span>
