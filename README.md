@@ -8,7 +8,7 @@ Website ini dibuat untuk merayakan Hari Kemerdekaan Indonesia yang ke-79.
 
 Mobile View
 
-![App Screenshot](https://i.postimg.cc/XYJXvdSq/1.png) 
+![App Screenshot](https://i.postimg.cc/XYJXvdSq/1.png](https://i.imgur.com/2IlV9oG.png)) 
 
 
 Desktop View
