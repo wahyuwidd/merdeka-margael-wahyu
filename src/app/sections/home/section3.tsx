@@ -14,7 +14,7 @@ export default function Section3() {
         </div>
         <div className="w-full flex justify-center items-center mb-20 ">
           <h1 className="2xl:px-[20rem] italic text-right">
-            "Kami berperang terus, jangan sampai menyerah." <br /> - Jenderal
+          &ldquo;Kami berperang terus, jangan sampai menyerah.&ldquo; <br /> - Jenderal
             Soedirman <br /> <br />{" "}
             <p className="not-italic">
               {" "}
@@ -29,7 +29,7 @@ export default function Section3() {
       <div className="flex justify-between">
         <div className="w-full flex justify-center items-center">
           <h1 className="2xl:px-[20rem] italic">
-            "Habis gelap terbitlah terang." <br /> - R.A. Kartini <br />
+          &ldquo;Habis gelap terbitlah terang.&ldquo; <br /> - R.A. Kartini <br />
             <br />{" "}
             <p className="not-italic">
               {" "}

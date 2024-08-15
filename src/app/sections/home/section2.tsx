@@ -9,8 +9,8 @@ export default function Section2 () {
         <div className="flex justify-between">
           <div className="w-full flex justify-center items-center mb-20">
             <h1 className="2xl:px-[20rem] italic">
-              "Bangsa yang besar adalah bangsa yang menghormati jasa
-              pahlawannya." <br /> - Ir. Soekarno <br /> <br />{" "}
+            &ldquo;Bangsa yang besar adalah bangsa yang menghormati jasa
+              pahlawannya.&ldquo; <br /> - Ir. Soekarno <br /> <br />{" "}
               <p className="not-italic">
                 {" "}
                 Soekarno adalah Proklamator Kemerdekaan dan Presiden pertama
@@ -31,9 +31,9 @@ export default function Section2 () {
         <div className="flex justify-between">
           <div className="w-full flex justify-center items-center">
             <h1 className="2xl:px-[20rem] italic">
-              "Kemerdekaan hanyalah diperdapat dan dimiliki oleh bangsa yang
-              jiwanya <br /> berkobar-kobar dengan tekad 'Merdeka, merdeka atau
-              mati'." <br /> - Moh . Hatta <br />
+            &ldquo;Kemerdekaan hanyalah diperdapat dan dimiliki oleh bangsa yang
+              jiwanya <br /> berkobar-kobar dengan tekad Merdeka, merdeka atau
+              mati.&ldquo; <br /> - Moh . Hatta <br />
               <br />{" "}
               <p className="not-italic">
                 {" "}
